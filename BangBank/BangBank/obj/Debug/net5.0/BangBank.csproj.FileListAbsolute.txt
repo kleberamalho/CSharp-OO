@@ -1,3 +1,7 @@
+D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.AssemblyInfoInputs.cache
+D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.AssemblyInfo.cs
+D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.csproj.CoreCompileInputs.cache
 D:\Workspace\CSharp-OO\BangBank\BangBank\bin\Debug\net5.0\BangBank.exe
 D:\Workspace\CSharp-OO\BangBank\BangBank\bin\Debug\net5.0\BangBank.deps.json
 D:\Workspace\CSharp-OO\BangBank\BangBank\bin\Debug\net5.0\BangBank.runtimeconfig.json
@@ -5,12 +9,8 @@ D:\Workspace\CSharp-OO\BangBank\BangBank\bin\Debug\net5.0\BangBank.runtimeconfig
 D:\Workspace\CSharp-OO\BangBank\BangBank\bin\Debug\net5.0\BangBank.dll
 D:\Workspace\CSharp-OO\BangBank\BangBank\bin\Debug\net5.0\ref\BangBank.dll
 D:\Workspace\CSharp-OO\BangBank\BangBank\bin\Debug\net5.0\BangBank.pdb
-D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.csproj.AssemblyReference.cache
-D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.GeneratedMSBuildEditorConfig.editorconfig
-D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.AssemblyInfoInputs.cache
-D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.AssemblyInfo.cs
-D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.csproj.CoreCompileInputs.cache
 D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.dll
 D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\ref\BangBank.dll
 D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.pdb
 D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.genruntimeconfig.cache
+D:\Workspace\CSharp-OO\BangBank\BangBank\obj\Debug\net5.0\BangBank.csproj.AssemblyReference.cache

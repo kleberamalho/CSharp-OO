@@ -1,12 +1,14 @@
-﻿namespace BangBank
+﻿using BangBank.Titular;
+
+namespace BangBank
 {
     public class ContaCorrente
     {
-        public string titular;
+        public Cliente titular;
         public string conta;
         public int numero_agencia;
         public string nome_agencia;
-        public double saldo;
+        private double saldo;
 
         public bool Sacar(double valor)
         {
@@ -27,7 +29,41 @@
         }
         public void Depositar(double valor)
         {
+            if (valor < 0)
+            {
+                return;
+            }
             saldo = saldo + valor;
+        }
+
+        public bool Transferir(double valor, ContaCorrente destino)
+        {
+            if (saldo < valor)
+            {
+                return false;
+            }
+            else
+            {
+                saldo = saldo - valor;
+                destino.saldo = destino.saldo + valor;
+                return true;
+            }
+        }
+
+        public void DefinirSaldo(double valor)
+        {
+            if (valor < 0)
+            {
+                return;
+            }
+            else
+            {
+                saldo = valor;
+            }
+        }
+        public double obterSaldo()
+        {
+            return saldo;
         }
     }
 }

@@ -4,10 +4,11 @@ namespace BangBank
 {
     public class ContaCorrente
     {
-        public Cliente titular;
-        public string conta;
-        public int numero_agencia;
-        public string nome_agencia;
+        public Cliente Titular{get; set;}
+        public string conta { get; set; }
+        public int numero_agencia { get; set; }
+        public string nome_agencia { get; set; }
+
         private double saldo;
 
         public bool Sacar(double valor)
@@ -50,20 +51,36 @@ namespace BangBank
             }
         }
 
-        public void DefinirSaldo(double valor)
+        //public void SetSaldo(double valor)
+        //{
+        //    if (valor < 0)
+        //    {
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        saldo = valor;
+        //    }
+        //}
+        //public double GetSaldo()
+        //{
+        //    return saldo;
+        //}
+
+        public double Saldo
         {
-            if (valor < 0)
+            get
             {
-                return;
+                return saldo;
             }
-            else
+            set
             {
-                saldo = valor;
+                if (value<0)
+                {
+                    return;
+                }
+                saldo = value;
             }
-        }
-        public double obterSaldo()
-        {
-            return saldo;
         }
     }
 }

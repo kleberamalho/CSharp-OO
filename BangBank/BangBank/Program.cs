@@ -58,15 +58,18 @@ namespace BangBank
 
             //Console.ReadKey();
 
+            Cliente sarah = new Cliente();
+
             ContaCorrente conta4 = new ContaCorrente();
 
-            conta4.DefinirSaldo(150);
+            conta4.Saldo = 100;
+            conta4.Titular = sarah;
 
-            Console.WriteLine("Saldo: " +conta4.obterSaldo());
+            Console.WriteLine("Saldo: " +conta4.Saldo);
 
             Console.ReadKey();
 
-            /*Parei mod 05.Propriedades continuar Propriedades GET e SET 08min*/
+            /*Parei mod 06.Construtores continuar Método construtor 11min*/
 
         }
     }

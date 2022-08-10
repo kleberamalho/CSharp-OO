@@ -5,8 +5,45 @@ namespace BangBank
     public class ContaCorrente
     {
         public Cliente Titular{get; set;}
-        public string conta { get; set; }
-        public int numero_agencia { get; set; }
+       
+        private int _numero_agencia;
+        public int numero_agencia 
+        {
+            get 
+            {
+                return _numero_agencia;
+            }
+            set 
+            {
+                if(value <=0) 
+                {
+
+                }
+                else
+                {
+                    _numero_agencia = value;
+                }
+            }
+        }
+        private string _conta;
+        public string conta
+        {
+            get
+            {
+                return _conta;
+            }
+            set
+            {
+                if(value == null)
+                {
+                    return;
+                }
+                else
+                {
+                    _conta = value;
+                }
+            }
+        }
         public string nome_agencia { get; set; }
 
         private double saldo;
@@ -50,6 +87,16 @@ namespace BangBank
                 return true;
             }
         }
+
+        public ContaCorrente(int numero_agencia,string conta)
+        {
+            numero_agencia = numero_agencia;
+            conta = conta;
+            TotalDeContasCriadas += 1;
+        }
+
+        public static int TotalDeContasCriadas { get; set; }
+
 
         //public void SetSaldo(double valor)
         //{

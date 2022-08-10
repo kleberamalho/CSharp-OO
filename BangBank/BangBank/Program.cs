@@ -58,14 +58,22 @@ namespace BangBank
 
             //Console.ReadKey();
 
-            Cliente sarah = new Cliente();
+            //Cliente sarah = new Cliente();
+            //sarah.nome = "Sarah Silva";
+            //ContaCorrente conta4 = new ContaCorrente(235,"123654-x");
 
-            ContaCorrente conta4 = new ContaCorrente();
+            //conta4.Saldo = 100;
+            //conta4.Titular = sarah;
+            //Console.WriteLine(conta4.Titular.nome);
+            //Console.WriteLine(conta4.Saldo);
+            //Console.WriteLine(conta4.numero_agencia);
+            //Console.WriteLine(conta4.conta);
 
-            conta4.Saldo = 100;
-            conta4.Titular = sarah;
+            ContaCorrente conta5 = new ContaCorrente(235, "163684-x");
 
-            Console.WriteLine("Saldo: " +conta4.Saldo);
+            ContaCorrente conta6 = new ContaCorrente(190, "123654-x");
+
+            Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
             Console.ReadKey();
 
